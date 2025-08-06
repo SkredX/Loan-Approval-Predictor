@@ -4,7 +4,7 @@ This project builds a machine learning pipeline to predict whether a loan will b
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 The project uses the **Loan Prediction Dataset** from Kaggle which contains the following columns:
 
@@ -24,7 +24,7 @@ The project uses the **Loan Prediction Dataset** from Kaggle which contains the 
 
 ---
 
-## 🔧 Project Structure
+## Project Structure
 
 ```
 Loan Approval Predictor.ipynb
@@ -35,7 +35,7 @@ README.md
 
 ---
 
-## 🧹 Step 1: Data Preprocessing
+## Step 1: Data Preprocessing
 
 - Loaded and inspected the dataset
 - Handled missing values
@@ -45,7 +45,7 @@ README.md
 
 ---
 
-## 📊 Step 2: Model Building - Logistic Regression
+## Step 2: Model Building - Logistic Regression
 
 - Fitted logistic regression on the training set
 - Performed 5-fold cross-validation
@@ -56,7 +56,7 @@ README.md
 
 ---
 
-## 🌲 Step 3: Model Building - Decision Tree (Tuned)
+## Step 3: Model Building - Decision Tree (Tuned)
 
 - Used `GridSearchCV` for hyperparameter tuning (`max_depth`, `min_samples_split`, etc.)
 - Trained the best estimator on the training set
@@ -71,7 +71,7 @@ README.md
 
 ---
 
-## 📈 Step 4: Evaluation & Comparison
+## Step 4: Evaluation & Comparison
 
 - Compared Logistic Regression and Decision Tree models using:
   - Accuracy
@@ -81,7 +81,7 @@ README.md
 
 ---
 
-## 🧪 Step 5: Prediction on Test Set
+## Step 5: Prediction on Test Set
 
 - Loaded and preprocessed `test.csv` with the same pipeline
 - Predicted loan approval status using the tuned Decision Tree model
@@ -89,7 +89,7 @@ README.md
 
 ---
 
-## 👤 Step 6: Guided User Input for Real-time Prediction
+## Step 6: Guided User Input for Real-time Prediction
 
 - Allowed user to enter values manually via prompts
 - Converted input into a format compatible with model expectations
@@ -105,7 +105,7 @@ Prediction: Loan will be Approved ✅
 
 ---
 
-## 📌 Key Libraries Used
+## Key Libraries Used
 
 - `pandas`, `numpy`
 - `matplotlib`, `seaborn`
@@ -113,7 +113,7 @@ Prediction: Loan will be Approved ✅
 
 ---
 
-## 📊 Model Performance Snapshot
+## Model Performance Snapshot
 
 | Metric             | Logistic Regression | Decision Tree (Tuned) |
 |--------------------|---------------------|------------------------|
@@ -123,7 +123,7 @@ Prediction: Loan will be Approved ✅
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - Integrate Flask/FastAPI for web interface
 - Add XGBoost and RandomForest models
@@ -132,7 +132,7 @@ Prediction: Loan will be Approved ✅
 
 ---
 
-## 🧠 Learning Outcomes
+## Learning Outcomes
 
 - End-to-end supervised ML workflow
 - Model tuning with cross-validation
@@ -141,13 +141,7 @@ Prediction: Loan will be Approved ✅
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 - Dataset: [Kaggle - Loan Prediction Dataset](https://www.kaggle.com/datasets/altruistdelhite04/loan-prediction-problem-dataset)
 - Tools: Python, Jupyter Notebook, Scikit-learn
-
----
-
-## 📝 Author
-
-*Developed by a beginner in machine learning as part of a structured learning journey.*
